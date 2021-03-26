@@ -40,8 +40,8 @@ else
 fi
 
 file2="testCase5.txt"
-printf "\nTest 5: cli.py --sourceUrl=https://raw.githubusercontent.com/peaudecastor/data-converter-take-home-test/main/sample.json --repo=github.com/myorg/c --type==weak-crypto \n"
-python3 cli.py --sourceUrl=https://raw.githubusercontent.com/peaudecastor/data-converter-take-home-test/main/sample.json --repo=github.com/myorg/c --type==weak-crypto > scriptOutput.txt
+printf "\nTest 5: cli.py --sourceUrl=https://raw.githubusercontent.com/peaudecastor/data-converter-take-home-test/main/sample.json --type=weak-crypto \n"
+python3 cli.py --sourceUrl=https://raw.githubusercontent.com/peaudecastor/data-converter-take-home-test/main/sample.json --type=weak-crypto > scriptOutput.txt
 if cmp -s "$file1" "$file2"; then
     printf "Test 5 passed.\n"
 else

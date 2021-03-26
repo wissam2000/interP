@@ -9,3 +9,16 @@
 
 # Get started:
 1. Simply run python3 cli.py [sourceUrl] [class] [type] [repo]
+
+# Testing:
+  There are 6 cases tested for:
+  1. Tests the script with no arguments.
+  2. Tests only with sourceUrl argument.
+  3. Tests the class filter.
+  4. Tests the repo filter.
+  5. Tests the type filter.
+  6. Tests the combination of class and type filter.
+# To Run the Tests:
+  1. Run chmod u+x test.sh to ensure you have execution access.
+  2. Run ./test.sh
+  
