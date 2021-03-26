@@ -1,0 +1,10 @@
+[
+    {
+        "repository": "githu.com/myorg/a",
+        "file": "file.py",
+        "startLineNumber": "5",
+        "end": "10",
+        "class": "injection",
+        "type": "command-injection"
+    }
+]

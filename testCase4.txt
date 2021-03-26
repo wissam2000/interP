@@ -1,0 +1,10 @@
+[
+    {
+        "repository": "github.com/myorg/c",
+        "file": "file.py",
+        "startLineNumber": "1",
+        "end": "5",
+        "class": "bad-crypto",
+        "type": "weak-crypto-2"
+    }
+]
