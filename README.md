@@ -19,6 +19,6 @@
   5. Tests the type filter.
   6. Tests the combination of class and type filter.
 # To Run the Tests:
-  1. Run chmod u+x test.sh to ensure you have execution access.
-  2. Run ./test.sh
+  1. Run 'chmod u+x test.sh' to ensure you have execution access.
+  3. Run ./test.sh
   
